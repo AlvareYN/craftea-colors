@@ -6,6 +6,7 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 export default {
   kit: {
     adapter: adapter({
+      
       pages: 'build',
       assets: 'build',
       fallback: undefined,
@@ -13,7 +14,7 @@ export default {
       strict: true
     }),
     paths: {
-      base: process.env.GITHUB_PAGES ? '/colors' : '',
+      base: process.env.GITHUB_PAGES ? '/craftea-colors' : '',
     },
     prerender: {
       default: true
