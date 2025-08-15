@@ -14,7 +14,9 @@ export default {
       strict: true
     }),
     paths: {
-      base: process.env.GITHUB_PAGES ? '/craftea-colors' : '',
+      base: '/craftea-colors',
+      assets: '/craftea-colors',
+      
     },
     prerender: {
       default: true
